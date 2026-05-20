@@ -264,7 +264,8 @@
         }
 
         // Update QR Code
-        const linkRegistrasi = `https://iot-4-three.vercel.app`; 
+        // Update QR Code - Arahkan ke link registrasi server Vercel barumu
+const linkRegistrasi = `https://project-iot-delta.vercel.app/registrasi/`;
         const urlQRUtama = `https://api.qrserver.com/v1/create-qr-code/?size=500x500&data=${encodeURIComponent(linkRegistrasi)}`;
         document.getElementById('qr-registrasi-utama').src = urlQRUtama;
 
